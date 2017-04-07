@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+    The very first application
+-->
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet" />
+    <title>Hello World</title>
+</head>
+
+<!--  BEGINS: Page style settings -->
+
+<style>
+    html {
+        font-family: inherit;
+        background-color: inherit;
+    }
+    
+    img {
+        width: 40%;
+    }
+    
+    p {
+        font-size: 2.0em;
+        padding-top: 20px;
+        text-align: center;
+    }
+</style>
+
+<!--  ENDS: Page style settings -->
+<!--  BEGINS: Content for our application -->
+
+<body class="container text-center">
+
+
+    <h1>PIXELS</h1>
+     
+
+    <img src="img/pacman bridge.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+    <h2><B>pacman goes to hollywood </b> </h2>
+<p> When aliens misinterpret video feeds of classic arcade games as a declaration of war, they attack the Earth in the form of the video games. </p>
+<button id="button1" type="button" class="btn btn-warning">Warning</button>
+</body>
+
+<!--  ENDS: Content for our application  -->
+
+
+<!--  BEGINS: Script block  -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script>
+    $("#target").click(function() {
+        alert("Handler for .click() called.");
+    });
+</script>
+<!--  ENDS: Script block  -->
+
+</html>
